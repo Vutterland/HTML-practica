@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4a90e2;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-card {
+    display: flex;
+    width: 80%;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.character-image {
+    width: 200px;
+    height: 200px;
+    background-color: #d0d0d0;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.character-info {
+    flex: 1;
+}
+
+.character-info h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.character-info p {
+    margin-bottom: 8px;
+}
+
+/* Barra sticky en el centro */
+.center-sticky {
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    z-index: 1000;
+}
+
+.center-sticky a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.center-sticky a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 20px;
+}
